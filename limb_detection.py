@@ -46,7 +46,7 @@ class PoseLandmark(enum.IntEnum):
 
 frameWidth = 1280
 frameHeight = 720
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 cap.set(3, frameWidth)
 cap.set(4, frameHeight)
 mpHands=mp.solutions.pose
